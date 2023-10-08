@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <title>Tailwind</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="box-border m-0 p-0 h-screen text-base cursor-default font-questrial"
+  >
+    <div class="header w-full border-b">
+      <div class="top h-1/2 border-b flex">
+        <div
+          class="click border-r px-8 flex justify-center items-center flex-wrap gap-0.5"
+        >
+          <iconify-icon icon="ion:menu" class="text-xl"></iconify-icon>MENU
+        </div>
+        <div
+          class="border-r px-8 flex justify-between items-center flex-wrap flex-1 flex"
+        >
+          <iconify-icon icon="ion:search" class="text-xl click"></iconify-icon>
+          <div class="title font-paytone text-3xl">awwwards.</div>
+          <a href="#" class="font-semibold">REGISTER / LOG IN</a>
+        </div>
+        <div
+          class="click border-r px-8 flex justify-center items-center flex-wrap bg-teal-400 text-white font-semibold tracking-wider"
+        >
+          SUBMIT YOUR SITE!
+        </div>
+      </div>
+      <div class="bot h-1/2 flex">
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          <iconify-icon
+            icon="basil:filter-outline"
+            class="text-xl"
+          ></iconify-icon>
+        </div>
+        <div
+          class="px-8 flex items-center justify-center border-r font-semibold tracking-wider"
+        >
+          Filter by
+        </div>
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          AWARDS<iconify-icon icon="octicon:triangle-down-24"></iconify-icon>
+        </div>
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          CATEGORIES<iconify-icon
+            icon="octicon:triangle-down-24"
+          ></iconify-icon>
+        </div>
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          TAGS<iconify-icon icon="octicon:triangle-down-24"></iconify-icon>
+        </div>
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          TECHNOLOGIES<iconify-icon
+            icon="octicon:triangle-down-24"
+          ></iconify-icon>
+        </div>
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          COLORS<iconify-icon icon="octicon:triangle-down-24"></iconify-icon>
+        </div>
+        <div class="px-8 flex items-center justify-center border-r gap-0.5">
+          COUNTRIES<iconify-icon icon="octicon:triangle-down-24"></iconify-icon>
+        </div>
+      </div>
+    </div>
+    <div class="content w-full"></div>
+  </body>
+</html>
